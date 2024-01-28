@@ -59,4 +59,5 @@ const svgs = {
     getSvg: (name) => svgs[name]
   }
   window.svgService = svgService
+  window.svgs= svgs
   
