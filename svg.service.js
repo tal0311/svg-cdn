@@ -54,12 +54,12 @@ const svgs = {
   
   }
   
-  
+    window.svgs= svgs
   export const svgService = {
     getSvg: (name) => svgs[name]
   }
   window.svgService = svgService
-  window.svgs= svgs
+
 
   console.log('svgs are loded')
   
