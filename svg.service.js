@@ -60,4 +60,6 @@ const svgs = {
   }
   window.svgService = svgService
   window.svgs= svgs
+
+  console.log('svgs are loded')
   
