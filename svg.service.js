@@ -56,7 +56,7 @@ const svgs = {
   
 
   export const svgService = {
-    getSvg: (name) => svgs[name],
+    getSvg: (name) => svgs[name]
  }
 
 
